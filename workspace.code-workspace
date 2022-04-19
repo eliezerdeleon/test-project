@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "G:\\MY WORK\\eliezerTest"
+		},
+		{
+			"name": "test-project",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
