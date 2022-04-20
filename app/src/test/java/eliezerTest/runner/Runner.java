@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 
 )
 
-public class runner {
+public class Runner {
     
 }
 
