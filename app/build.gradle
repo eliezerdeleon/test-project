@@ -18,7 +18,9 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-testng
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.2.3'
+    implementation group: 'io.cucumber', name: 'cucumber-testng', version: '7.3.0'
     testImplementation 'io.cucumber:cucumber-junit:4.2.0'
     testImplementation group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
 
