@@ -17,13 +17,23 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.2.3'
-    testImplementation 'io.cucumber:cucumber-junit:4.2.0'
-    testImplementation group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation 'io.cucumber:cucumber-java:6.11.0'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-testng
+    implementation 'io.cucumber:cucumber-testng:7.2.3'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
+    testImplementation 'io.cucumber:cucumber-junit:6.11.0'
+
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-junit
+    testImplementation 'info.cukes:cucumber-junit:1.2.5'
+
 
  
     // Use JUnit Jupiter for testing.
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+
     
     
 
