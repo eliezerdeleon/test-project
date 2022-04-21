@@ -26,7 +26,7 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-junit:6.11.0'
 
     // https://mvnrepository.com/artifact/info.cukes/cucumber-junit
-    testImplementation 'info.cukes:cucumber-junit:1.2.5'
+    //testImplementation 'info.cukes:cucumber-junit:1.2.5'
 
 
  
